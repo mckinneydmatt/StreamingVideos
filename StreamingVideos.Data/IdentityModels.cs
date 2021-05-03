@@ -33,11 +33,11 @@ namespace StreamingVideos.Data
         {
             return new ApplicationDbContext();
         }
-        public DbSet<Movie> Movies { get; set; }
-        public DbSet<TVShow> TVShows  { get; set; }
-        public DbSet<MovieRating> MovieRatings { get; set; }
-        public DbSet<TVShowRating> TVShowRatings { get; set; }
-        public DbSet<Episode> Episodes { get; set; }
+        //public DbSet<Movie> Movies { get; set; }
+        //public DbSet<TVShow> TVShows  { get; set; }
+        //public DbSet<MovieRating> MovieRatings { get; set; }
+        //public DbSet<TVShowRating> TVShowRatings { get; set; }
+        //public DbSet<Episode> Episodes { get; set; }
         public DbSet<User> Users { get; set; }
 
 

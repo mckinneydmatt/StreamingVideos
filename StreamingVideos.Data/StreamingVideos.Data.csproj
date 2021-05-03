@@ -91,11 +91,28 @@
     <Compile Include="Entities\TVShowRating.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\202105030247116_InitialCreate.cs" />
+    <Compile Include="Migrations\202105030247116_InitialCreate.Designer.cs">
+      <DependentUpon>202105030247116_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105030318365_first migration.cs" />
+    <Compile Include="Migrations\202105030318365_first migration.Designer.cs">
+      <DependentUpon>202105030318365_first migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202105030247116_InitialCreate.resx">
+      <DependentUpon>202105030247116_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105030318365_first migration.resx">
+      <DependentUpon>202105030318365_first migration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
